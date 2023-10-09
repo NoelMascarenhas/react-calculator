@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+  }
+  
+  .calculator {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .display {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .expression {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .result {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .buttons {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  
